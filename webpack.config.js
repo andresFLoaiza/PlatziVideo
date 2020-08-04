@@ -37,12 +37,12 @@ module:{
         
         test:/\.html$/,
         use:[
-            {
+                {
                 // Para inyectar el código dinámico que genera webpack en los archivos HTML    
                 // necesita 2 dependencias : html-webpack-plugin y html-loader.
-            loader:'html-loader'
-        }
-         ]
+                    loader:'html-loader'
+                }
+            ]
     },
     {
         // se encarga de identificar los css o los sss ,video12
