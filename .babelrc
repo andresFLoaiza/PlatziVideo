@@ -1,0 +1,21 @@
+// las linea de codigo que esta en color verde fueron las que se instalaron
+// solamente se instala loas herramientas en la consola y despues hacemos un objeto con las que se instalaron en este cript y no se hace nada mas 
+// "presets": [
+    //     [
+    //       "@babel/preset-env",
+    //       {
+    //         "targets": {
+    //           "esmodules": true
+    //         }
+    //       } 
+    //     ],
+    //     "@babel/preset-react"
+    //   ]
+{
+    "presets":[
+        // la linea de abajo sirve para trabajar con el estandar javascript  ecmascrip6 y ecmascrip65, spolamente la sintaxis 
+        "@babel/preset-env",
+        // la linea de abajo funciona encargar de que funcione en todos los navegadores realizando las transformaciones necesaria
+        "@babel/preset-react"
+    ]
+}
